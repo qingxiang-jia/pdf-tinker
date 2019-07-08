@@ -1,13 +1,14 @@
 <template>
-  <div>PDF Tinker {{greeting}}</div>
+  <div class="title">PDF Tinker</div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      greeting: "Welcome!"
-    };
-  }
-};
 </script>
+
+<style scoped>
+.title {
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+}
+</style>
